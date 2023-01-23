@@ -1,0 +1,42 @@
+/* combine selectors */
+h1, h2, h3, h4 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    /* font-family: sans-serif; */
+}
+h2 {
+    text-transform: uppercase;
+}
+h3 {
+    color: pink;
+    font-size: 40px;
+    /* font-family: sans-serif; */
+}
+h4 {
+    color: pink;
+    font-size: 40px;
+    /* font-family: sans-serif; */
+    font-style: italic;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* descendant selector */
+footer p {
+    font-size: 15px;
+}
+
+article header p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* No it is not the best way! */
+/* The best way is using id and class to control the tricky situation. */
+

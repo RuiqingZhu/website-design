@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Race Registration</title>
+  </head>
+  <body>
+    <div>
+      <h2>Race Registration!</h2>
+    </div>
+    <div>
+      <form>
+        <div>
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" />
+          <label for="lastname">Last Name</label>
+          <input type="text" id="lastname" name="lastname" />
+        </div>
+        <div>
+          <p>Select a race</p>
+          <p>
+            <input type="radio" id="funrun5k" name="funrun5k" />
+            <label for="funrun5k">Fun Run 5k</label>
+          </p>
+          <p>
+            <input type="radio" id="halfmarathon" name="halfmarathon" />
+            <label for="halfmarathon">Half Marathon</label>
+          </p>
+          <p>
+            <input type="radio" id="fullmarathon" name="fullmarathon" />
+            <label for="fullmarathon">Full Marathon</label>
+          </p>
+        </div>
+        <div>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+            <label for="password">&emsp;&emsp;Password</label>
+            <input type="password" id="password" name="password" />
+          </p>
+        </div>
+        <div>
+          <p>
+            <label for="agegroup">Select Age Group</label>
+            <select id="agegroup" name="agegroup">
+              <option value="under18">Under 18</option>
+              <option value="above18">Above 18</option>
+            </select>
+          </p>
+        </div>
+        <div>
+          <p>
+            <label for="color">Choose the color of the shirt</label>
+            <input type="color" id="color" name="color" value="#ff0000" />
+          </p>
+        </div>
+        <div>
+          <p>
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday" />
+          </p>
+        </div>
+        <div>
+          <p>
+            <label for="cv">Upload your CV</label>
+            <input type="file" id="cv" name="cv" accept=".txt, .pdf" />
+          </p>
+        </div>
+        <br />
+        <div>
+          <p><input type="submit" />&emsp;<input type="reset" /></p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

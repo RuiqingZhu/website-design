@@ -1,0 +1,18 @@
+body {
+    background-color: hotpink;
+}
+
+h2 {
+    background-color: green;
+
+}
+
+button {
+    background-color: lightblue;
+    color: magenta;
+}
+
+p {
+    background-color: yellow;
+    color: olive;
+}
